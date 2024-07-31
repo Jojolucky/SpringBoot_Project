@@ -8,14 +8,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
-@Data
+@Entity  // JPA annotation, means this class map to one table in the database
+@Data  // automatically create getter、setter、toString、equals and hashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class Task {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    // this is the primary key which will be auto generated
+    @Id // primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY)   // this is the primary key which will be auto generated
     private Long id;
     private String task;
     private boolean completed;
