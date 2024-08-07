@@ -7,7 +7,24 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/w1/pom.xml" />
         <option value="$PROJECT_DIR$/w1-todoList/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/post-service/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/comment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/like-service/pom.xml" />
+        <option value="$PROJECT_DIR$/w2-reddit/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/w3/pom.xml" />
+        <option value="$PROJECT_DIR$/w3-rediit/pom.xml" />
+        <option value="$PROJECT_DIR$/w3-rediit/user-services/pom.xml" />
+        <option value="$PROJECT_DIR$/w2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/w2-reddit/pom.xml" />
+        <option value="$PROJECT_DIR$/w3-rediit/pom.xml" />
+        <option value="$PROJECT_DIR$/w3/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
